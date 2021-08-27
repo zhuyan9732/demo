@@ -2,7 +2,7 @@ module.exports = {
   apps: [
     {
       name: "juejue-vite-h5",
-      script: "juejue-vite-h5-server.js",
+      script: "react-vite-h5-server.js",
     },
   ],
   deploy: {
