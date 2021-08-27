@@ -8,7 +8,7 @@ import styles from "./index.module.less";
 
 const Account = (props) => {
   // Account 通过 createForm 高阶组件包裹之后，可以在 props 中获取到 form 属性
-  const { getFieldProps, getFieldError } = props.form;
+  const { getFieldProps } = props.form;
 
   // 提交修改方法
   const submit = () => {
