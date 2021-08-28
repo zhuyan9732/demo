@@ -1,4 +1,5 @@
 import axios from "./axios";
+import { baseUrl } from "config";
 
 const MODE = import.meta.env.MODE;
 
